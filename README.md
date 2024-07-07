@@ -14,3 +14,11 @@ as 50, 255, 50 (a nice green) and any value between will cleanly transition betw
 many colors and as many limits as you like.
 
 Tablefy returns a value as a single string and can be used to assign tables to variables.
+
+Coming soon:
+1. Inputs outside of limits allowed
+2. Easier time changing settings
+3. NaN values
+4. Color-coded strings if I can figure out dictionaries
+
+7/6/24
