@@ -86,7 +86,7 @@ def GenerateRows(j, cw, w, rw, l):
 def GenerateHeader(j, h, start, step, cw, w, rw):
 	if h == "":
 		header = "\x1B[30;107m" + Justify('left', rw, ' ')
-		for x in range(start, w, step):
+		for x in range(start, w * step + start, step):
 			header = header + Justify(j, cw, str(x))
 		header = header + "\x1B[0m"
 		return header
