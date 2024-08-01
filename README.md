@@ -1,4 +1,5 @@
-**NEW**\n
+**NEW**
+
 Added lots of functionality. Now it is recommended to import Tablefy as t, and settings are no longer added as a long variable during the creation of the table. Instead, you can use t.Settings(value, setting) where setting is the setting you wish to edit and value is what you're changing the value to. You can also use t.settings_type and t.settings_type.keys() to 
 
 Tablefy is a table making program design to output a color-coded (ints/floats only) table of inputs, regardless of the size of the list. It is not recommended to use it for lists of strings, but if you do, set 'color' to False using
