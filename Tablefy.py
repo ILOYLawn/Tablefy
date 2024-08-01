@@ -1,3 +1,7 @@
+#
+# Tablefy by Bryon M.
+#
+
 settings_type = {
 	'col_wid':int,
 	'width':int,
